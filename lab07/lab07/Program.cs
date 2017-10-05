@@ -11,7 +11,7 @@ namespace lab07
             try
             {
                 su.StudentID = "59030185";
-                su.Salary = 315;
+                su.Salary = 200;
                 Console.WriteLine("StudentID : " + su.StudentID);
                 Console.WriteLine("Salary by day : " + su.Salary);
             }
