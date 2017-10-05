@@ -37,7 +37,7 @@ namespace lab07
             get { return getSalary; }
             set
             {
-                if (value > 300 && value <= 450)
+                if (value > 300 && value < 450)
                     getSalary = value;
                 else
                     throw (new Exception("Error!!!! invalid Salary"));
