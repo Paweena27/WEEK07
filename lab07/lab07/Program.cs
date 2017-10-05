@@ -19,9 +19,24 @@ namespace lab07
     }
     class Student
     {
-        public string Name;
-        public string ID;
-        public float GPA;
+        private string name;
+        private string id;
+        private float gpa;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public string ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        public float GPA
+        {
+            get { return gpa; }
+            set { gpa = value; }
+        }
 
     }
 }
